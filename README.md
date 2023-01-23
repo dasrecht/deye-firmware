@@ -22,13 +22,17 @@ when being up and running for 30 minutes.
 
 ## URL Structure
 
-> <http://47.254.36.66/0_D0002_18/MW3_15U_5406_1.471.bin>
-> <http://47.254.36.66/0_D0002_18/MW3_16U_5406_1.53.bin>
+```bash
+http://47.254.36.66/0_D0002_18/MW3_15U_5406_1.471.bin
+http://47.254.36.66/0_D0002_18/MW3_16U_5406_1.53.bin
+```
 
 You can use the DIGEST files to verify that those files here are the same as the ones on the server.
 
-> shasum -c MW3_15U_5406_1.471.bin.DIGEST
-> shasum -c MW3_16U_5406_1.53.bin.DIGEST
+```bash
+shasum -c MW3_15U_5406_1.471.bin.DIGEST
+shasum -c MW3_16U_5406_1.53.bin.DIGEST
+```
 
 ## Call for help
 
