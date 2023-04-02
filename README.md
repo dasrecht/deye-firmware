@@ -65,6 +65,14 @@ for filename in *.bin; do
 done
 ```
 
+## Other notable Projects
+
+- [Deye Microinverter - Cloud-free](https://github.com/Hypfer/deye-microinverter-cloud-free)
+- [Deye solar inverter MQTT bridge](https://github.com/kbialek/deye-inverter-mqtt)
+- [deye-logger-at-cmd](https://github.com/s10l/deye-logger-at-cmd)
+- [Solarman integration - Homeassistant](https://github.com/StephanJoubert/home_assistant_solarman)
+- And more Repositories tagged with [deye](https://github.com/topics/deye)
+
 
 ## Call for help
 
