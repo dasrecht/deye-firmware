@@ -1,5 +1,9 @@
 # Deye Microinverter Firmware
 
+This repository has been started because the Firmware prior to MW3_16U_5406_1.53 had some significant security issues - See also Thread on [Photovoltaikforum (German)](https://www.photovoltaikforum.com/thread/187077-achtung-wifi-sicherheit-der-deye-und-bosswerk-mi600-300-sowie-baugleiche-microwe/?postID=2859297) or [Article on Heise (German)](https://www.heise.de/news/Sicherheitsluecke-bei-Mikrowechselrichtern-von-Deye-Haendler-nicht-zustaendig-7483376.html)
+
+Additional to that there is a pretty stead pace on firmare releases but sadly no public changelog available. As the Server was also down for a few days earlier in 2023 I've decided to start this repository to keep the firmware versions somehow online even if the server would face issues.
+
 > I don't take any responsibility for any damage caused by this firmware. Use at your own risk.
 > It worked on my inverter, but I can't guarantee it will work on yours.
 
