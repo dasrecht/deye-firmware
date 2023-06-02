@@ -34,9 +34,13 @@ when being up and running for 30 minutes.
 ## URL Structure
 
 ```bash
+# Deye
 http://47.254.36.66/0_D0002_18/MW3_15U_5406_1.471.bin
 http://47.254.36.66/0_D0002_18/MW3_15U_5406_1.49R.bin
 http://47.254.36.66/0_D0002_18/MW3_16U_5406_1.53.bin
+http://47.254.36.66/0_D0002_18/MW3_16U_5406_1.56.bin
+http://47.254.36.66/0_D0002_18/MW3_16U_5406_1.57.bin
+# Solis Ginglong
 http://47.254.36.66/0_D0002_18/MW3_15_0501_1.21.bin
 http://47.254.36.66/0_D0002_18/MW3_15_0501_1.23.bin
 ```
