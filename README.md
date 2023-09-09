@@ -26,10 +26,11 @@ when being up and running for 30 minutes.
 
 ## Filenames
 
-| Filename | Brand          |
-|----------|----------------|
-| 0501     | Solis Ginglong |
-| 5406     | Deye           |
+| Subdirectory | Filename |         Brand         |
+| ------------ | -------- | --------------------- |
+| 0_D0002_18   | 0501     | Solis Ginglong        |
+| 0_D0002_18   | 5406     | Deye                  |
+| 0_5407_1     |          | Deye Hybrid Inverters |
 
 ## URL Structure
 
@@ -48,6 +49,10 @@ http://47.254.36.66/0_D0002_18/MW3_16U_5406_2.31.bin
 # Solis Ginglong
 http://47.254.36.66/0_D0002_18/MW3_15_0501_1.21.bin
 http://47.254.36.66/0_D0002_18/MW3_15_0501_1.23.bin
+
+# Deye Hybrid Inverters
+http://47.254.36.66/0_5407_18/MCU1-SG-Ver0000-C362-CK.bin
+
 ```
 
 You can use the DIGEST files to verify that those files here are the same as the ones on the server.
@@ -79,6 +84,7 @@ done
 - [Deye Microinverter - Cloud-free](https://github.com/Hypfer/deye-microinverter-cloud-free)
 - [Deye solar inverter MQTT bridge](https://github.com/kbialek/deye-inverter-mqtt)
 - [deye-logger-at-cmd](https://github.com/s10l/deye-logger-at-cmd)
+  This one has a lot of useful insights into resetting passwords `AT+WEBU` or Modbus access.
 - [Solarman integration - Homeassistant](https://github.com/StephanJoubert/home_assistant_solarman)
 - And more Repositories tagged with [deye](https://github.com/topics/deye)
 
