@@ -91,3 +91,36 @@ done
 ## Call for help
 
 If you have more information or insights into the firmware update process, alternative URLs or other information let me know.
+
+
+# Deye Hybrid Inverter Firmware
+
+Deye also stores the firmware for their hybrid inverters on the same server. So far the http://47.254.36.66/0_5407_1/ directory has been identified, but there may be others.
+The firmware located here has been confirmed to work on the SUN-3K-SG04LP1-AU-24V and SUN-5K-SG04LP1-AU, however based on naming conventions, it seems like this same firmware is used across a lot of the hybrid inverter models and regions.
+
+There are two types of firmware files in there, one for the HMI (display) and the other for the main firmware.
+Examples: 
+Main: SG_5K_MCU2_V3384-NR.bin
+HMI: MCU1-SG-Ver0000-C366-CK.bin
+
+Based on information in this forum thread: https://powerforum.co.za/topic/12655-deye-inverter-latest-firmware/
+It is recomended to update the HMI first, followed by the Main firmware. Generally the HMI firmware update doesn't result in the inverter shutting down the outputs, but the Main firmware normally does.
+
+The update process is fairly straightforward. Deye's instructions can be found here: hybrid-inverter-info/LOCAL UPDATE INSTRUCTIONS.pdf
+The default login and password for the solarman dongle is admin/admin.
+I found that one of my inverters needed to be power cycled before it would accept the new firmware.
+And sometime the firmware upload would start again after the initial upload unless I unplugged the solarman dongle.
+
+## Summary of HMI firmware changes (see photos here hybrid-inverter-info/HMI-photos)
+
+C362 - C369
+- Added Language 'Polish'
+- 'Low Power Mode<Low Batt' moved from 'Batt Mode' screen to  'Func Set4' screen
+- 'Low Noise Mode' moved from 'Batt Set2' screen to 'Func Set4' screen
+- 'Grid Side INV Meter2' renamed to 'Grid Tie Meter2' on 'Paral Set3' Screen
+- New setting on 'Func Set4' screen: 'Export Power Limiter' (appears to match the 'Max Sell Power' seting on 'Work Mode1' screen)
+- New setting on 'Func Set4' screen: 'Import Power Limiter' (the manual says this limits power from the grid, but has a lower priority than 'Grid Peak Shaving' setting.
+- New setting on 'Func Set4' screen: 'MPPT Multi-Point Scanning'
+- New setting on 'Port Set1' screen: 'off grid immediately off'
+- New setting on 'Port Set1' screen: 'AC couple Frz High'
+      
