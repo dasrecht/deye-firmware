@@ -50,8 +50,15 @@ http://47.254.36.66/0_D0002_18/MW3_16U_5406_2.31.bin
 http://47.254.36.66/0_D0002_18/MW3_15_0501_1.21.bin
 http://47.254.36.66/0_D0002_18/MW3_15_0501_1.23.bin
 
-# Deye Hybrid Inverters
+# Deye Hybrid Inverters HMI Firmware (MCU1)
 http://47.254.36.66/0_5407_1/MCU1-SG-Ver0000-C362-CK.bin
+http://47.254.36.66/0_5407_1/MCU1-SG-Ver0000-C36E-CK.bin
+
+# Deye Hybrid Inverters Main Firmware (MCU2)
+http://47.254.36.66/0_5407_1/SG_5K_MCU2_V3387-NR.bin (SUN-5K-SG04LP1-AU)
+http://47.254.36.66/0_5407_1/SG_6K_MCU2_V4386-NR.bin (SUN-6K-SG03LP1-EU)
+http://47.254.36.66/0_5407_1/MCU2_5227US_NC_NR8K59V.bin (SUN-8K-SG01LP1-??)
+http://47.254.36.66/0_5407_1/MCU2_6027US_NC_NR8K59V.bin (SUN-8K-SG01LP1-??)
 
 ```
 
