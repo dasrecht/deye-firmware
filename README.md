@@ -53,6 +53,7 @@ http://47.254.36.66/0_D0002_18/MW3_15_0501_1.23.bin
 # Deye Hybrid Inverters HMI Firmware (MCU1)
 http://47.254.36.66/0_5407_1/MCU1-SG-Ver0000-C362-CK.bin
 http://47.254.36.66/0_5407_1/MCU1-SG-Ver0000-C36E-CK.bin
+http://47.254.36.66/0_5407_1/MCU1-SG-Ver0000-C372-CK.bin
 
 # Deye Hybrid Inverters Main Firmware (MCU2)
 http://47.254.36.66/0_5407_1/SG_5K_MCU2_V3387-NR.bin (SUN-5K-SG04LP1-AU)
