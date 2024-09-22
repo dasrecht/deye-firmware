@@ -114,10 +114,16 @@ HMI: MCU1-SG-Ver0000-C366-CK.bin
 Based on information in this forum thread: https://powerforum.co.za/topic/12655-deye-inverter-latest-firmware/
 It is recomended to update the HMI first, followed by the Main firmware. Generally the HMI firmware update doesn't result in the inverter shutting down the outputs, but the Main firmware normally does.
 
-The update process is fairly straightforward. Deye's instructions can be found here: hybrid-inverter-info/LOCAL UPDATE INSTRUCTIONS.pdf
-The default login and password for the solarman dongle is admin/admin.
-I found that one of my inverters needed to be power cycled before it would accept the new firmware.
-And sometime the firmware upload would start again after the initial upload unless I unplugged the solarman dongle.
+Update Procedure :
+
+1) Go to the IP address of the WiFi module of the inverter (stick logger), login : admin\admin
+2) On the left, click the Upgrade inverter item (the inverter itself, not the Stick Logger firmware)
+3) Select HMI file, i.e. MCU1-SG-Ver0000-C36E-CK.bin (MCU1 = HMI) as the first file, click upgrade. (time +/- 15 minutes)
+4) After rebooting, repeat the procedure, but now select the MAIN firmware file, i.e. SG_6K_MCU2_V4386-NR.bin (MCU2 = MAIN). (time +/- 15 minutes)
+
+FYI : the WiFi Stick Logger can also be updated by the Deye service (yet another firmware).
+
+If you have difficulty, you may need to powercycle the inverter before beginning the process.
 
 ## Summary of HMI firmware changes (see photos here hybrid-inverter-info/HMI-photos)
 
