@@ -79,6 +79,16 @@ for filename in *.bin; do
 done
 ```
 
+## extract firmware
+
+```bash
+#remove header
+dd if=MW3_SSL_5408_1.0B_upgrade_0000000B.bin of=firmware_MW3_SSL_5408_1.0B_upgrade_0000000B.lzma skip=256 bs=1
+#unpack
+unlzma firmware_MW3_SSL_5408_1.0B_upgrade_0000000B.lzma
+```
+now the firmware can be displayed with a hexeditor
+
 ## Other notable Projects
 
 - [Deye Microinverter - Cloud-free](https://github.com/Hypfer/deye-microinverter-cloud-free)
